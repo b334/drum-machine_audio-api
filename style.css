@@ -1,0 +1,43 @@
+:root {
+  --background-color: #efefef;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: center;
+  background-color: var(--background-color);
+  padding: 5px;
+}
+
+.key {
+  display: flex;
+  font-size: 18px;
+  padding: 7px;
+  column-gap: 10px;
+}
+
+.key kbd {
+  border-radius: 6px;
+  background-color: var(--background-color);
+  width: 42px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+.key-name {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  /* padding: 6px 0; */
+}
